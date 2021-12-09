@@ -18,7 +18,7 @@ After this, your `Downloads` folder should contain the following:
 
 ### 3. Run this program (macOS or Linux)
 Once your files have been downloaded:
-1. Open the program called `Terminal` (a white text box will appear)  
+1. Open the program called `Terminal` --- it comes pre-installed with macOS, you can find it in applications
 2. Copy and paste the following into your `Terminal` window:  
 ```
 cd ~/Downloads && curl https://raw.githubusercontent.com/mkatzef/instagram-wrapped/master/main.py | python
