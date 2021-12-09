@@ -20,4 +20,8 @@ def get_usernames_from_file(filename):
 if __name__ == "__main__":
     following_set = get_usernames_from_file(following_filename)
     follower_set = get_usernames_from_file(follower_filename)
-    print("People not following you:\n" + "\n".join(sorted(list(following_set - follower_set))))
+    print("=" * 80)
+    print("People that DON'T FOLLOW YOU:\n" + "\n".join(sorted(following_set - follower_set)))
+    print("=" * 80)
+    print("People that YOU'RE NOT FOLLOWING:\n" + "\n".join(sorted(follower_set - following_set)))
+    print("=" * 80)
